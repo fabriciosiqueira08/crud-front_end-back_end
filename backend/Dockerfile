@@ -7,4 +7,4 @@ COPY package.json /backend/package.json
 RUN npm install
 COPY . /backend
 EXPOSE 3001
-CMD ["npm", "start"]
+CMD ["npm", "test"]

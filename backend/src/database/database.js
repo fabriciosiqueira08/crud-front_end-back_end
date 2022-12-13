@@ -16,7 +16,6 @@ async function connect() {
       console.error("Error connecting: ", err.stack);
       return;
     }
-    console.log("Connected to postgres!");
   });
   return pool;
 }
